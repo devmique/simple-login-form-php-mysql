@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",
+        sans-serif;
+}
+
+body {
+    background-color: #d1d4dd;
+    display: flex;
+   
+  
+  
+}
+
+.container {
+    background: #ebedf0;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 193, 193);
+    
+}
+
+form {
+    margin: 0 2rem;
+}
+
+.form-title {
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+    color: #1972ae;
+}
+input{
+    width: 90%;
+    border-radius: 15px;
+    border: 1px solid rgb(195, 193, 193);
+    margin: 10px;
+    padding: 10px;
+    background-color: #f6f7fa;;
+
+}
+
+i {
+    color: rgb(37, 37, 37);
+}
+label {
+    font-size: 0.9rem;
+    color: rgb(37, 37, 37);
+    position: relative;
+    
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+.recover {
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.recover a {
+    text-decoration: none;
+    color:#1972ae;
+}
+
+.recover a:hover {
+    color: #104f79;
+    text-decoration: underline;
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+
+    font-size: 1.0rem;
+    padding: 10px ;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 30%;
+    background: #1972ae;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background:#104f79;
+}
+
+.or {
+    font-size: 1.0rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    color:rgb(37, 37, 37);
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    color:#1972ae;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+    margin: 0 15px;
+    transition: 1s;
+    border: 1px solid rgb(195, 193, 193);
+}
+
+.icons i:hover {
+    background: rgb(37, 37, 37);
+    font-size: 1.6rem;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    color: rgb(37, 37, 37);
+  
+}
+
+button {
+    color: #1972ae;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    
+}
+
+button:hover {
+    text-decoration: underline;
+    color: #104f79;
+}
+.check{ 
+    cursor: pointer;
+display: flex;
+    justify-content:center;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+}
+.checkbox{
+    margin: 2px 0 0 0;
+}
+.check span{
+position: absolute;
+margin:0 80px 0 0;
+
+}
+
